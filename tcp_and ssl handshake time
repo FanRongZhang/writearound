@@ -1,0 +1,3 @@
+$ curl -w "TCP handshake: %{time_connect}, SSL handshake: %{time_appconnect}\n" -so /dev/null https://www.alipay.com
+
+TCP handshake: 0.022, SSL handshake: 0.064
